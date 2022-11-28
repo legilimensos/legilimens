@@ -1,0 +1,419 @@
+*{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background: transparent;
+}
+.nav-link{
+    background: transparent;
+    color: transparent;
+}
+.nav-link-1{
+    background-color: transparent;
+    color: transparent;
+}
+.home-class{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -13vh;
+    left: 0;
+}
+.home-title{
+    text-decoration: none;
+    font-size: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 15vh;
+    background-color: transparent;
+    color: white;
+    z-index: 100;
+}
+.home-button{
+    text-decoration: none;
+    background-color: #2a2c2d;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 14px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    left: 40%
+}
+.about-class{
+    width: 100%;
+    height: 380vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(about-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container1{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+}
+.cont-title{
+    text-decoration: none;
+    font-size: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    color: white;
+    padding-top: 3vh;
+}
+.cont-desc{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.5vh;
+    position: relative;
+    text-align: center;
+    padding: 0 3vh;
+    background-color: transparent;
+    color: white;
+}
+.container2{
+    width: 44vh;
+    height: 64vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: 20vh;
+    left: 5vh;
+}
+.container3{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: 20vh;
+    left: 5vh;
+}
+.container4{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: 20vh;
+    left: 5vh;
+}
+.container5{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: 20vh;
+    left: 5vh;
+}
+.down{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(dwn-back-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container6{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+}
+.feedback{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(subscribe.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container8{
+    width: 44vh;
+    height: 70vh;
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+}
+.con-desc{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.5vh;
+    position: relative;
+    left: 1vh;
+    top: 3vh;
+    padding: 0 3vh;
+    background-color: transparent;
+    color: white;
+}
+.fedb-link-btn{
+    text-decoration: none;
+    background-color: #2a2c2d;
+    color: white;
+    border-radius: 50px;
+    padding: 1vh 3vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    position: relative;
+    top: -4.5vh;
+    left: 21vh;
+}
+.fedb-link-btn:hover{
+    transition: ease-in-out 0.6s;
+    background-color: grey;
+}
+.copyright{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(copyright.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container9{
+    width: 44vh;
+    height: 80vh;
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+}
+.copy-btn{
+    text-decoration: none;
+    background-color: #2a2a2a;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    padding: 1vh 3vh;
+    position: relative;
+    border-radius: 50px;
+    left: 8vh;
+    top: 5vh;
+}
+.copy-btn:hover{
+    transition: ease-in-out 0.6s;
+    background-color: gray;
+}
+@media only screen and (min-width:768px) {
+.navbar{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    width: 100%;
+    height: 9vh;
+    
+}
+.home-class{
+    position: relative;
+    top: 5vh;
+}
+.nav-link{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.3vh;
+    float: right;
+    padding: 1vh 3vh;
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    margin-right: 1.5vh;
+    margin-top: 2vh;
+}
+.nav-link:hover{
+    transition: ease-in-out 0.6s;
+    background-color: gray;
+}
+.nav-link-1{
+    color: transparent;
+    background-color: transparent;
+    font-size: 0;
+}
+.nav-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 4vh;
+    padding: 0;
+    position: relative;
+    top: -4vh;
+    left: 2vh;
+    background-color: transparent;
+}
+.container1{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: 15vh;
+    left: 4vh;
+}
+.container2{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: -50vh;
+    left: 51vh;
+}
+.container3{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: -50vh;
+    left: 4vh;
+}
+.container4{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: -115vh;
+    left: 51vh;
+}
+.container5{
+    width: 44vh;
+    height: 60vh;
+    background-color: #1c1c1c   ;
+    border-radius: 50px;
+    position: relative;
+    top: -115vh;
+    left: 27vh;
+}
+.home-button{
+    text-decoration: none;
+    background-color: #2a2c2d;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 14px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    left: 40%;
+}
+.about-class{
+    height: 210vh;
+}
+.container6{
+    left: 27vh;
+}
+.container8{
+    left: 27vh;
+}
+.container9{
+    left: 27vh;
+}
+}
+@media only screen and (min-width: 1366px){
+.nav-link-1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.3vh;
+    float: right;
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    padding: 1vh 4vh;
+    margin-right: 1.5vh;
+    position: relative;
+    top: 2vh;
+}
+.nav-link{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.3vh;
+    float: right;
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    padding: 1vh 4vh;
+    margin-right: 1.5vh;
+    position: relative;
+    
+}
+.navbar{
+    height: 7vh;
+    background-color: black;
+}
+.nav-link:hover{
+    transition: ease-in-out 0.6s;
+    background-color: gray;
+}
+.nav-link-1:hover{
+    transition: ease-in-out 0.6s;
+    background-color: gray;
+}
+.nav-title{
+    top: -1vh;
+    background-color: transparent;
+}
+.home-button{
+    left: 47%;
+}
+.container1{
+    left: 13vh;
+}
+.container2{
+    left:67vh;
+}
+.container3{
+    top: -114vh;
+    left: 120vh;
+}
+.container4{
+    left: 37vh;
+}
+.container5{
+    top: -179.5vh;
+    left: 97vh;
+}
+.about-class{
+    height: 150vh;
+}
+.container6{
+    left: 37%;
+}
+.container8{
+    left: 37%;
+}
+.container9{
+    left: 37%;
+}
+}
